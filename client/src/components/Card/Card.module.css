@@ -1,0 +1,60 @@
+
+.CardContainer {
+    display: flex;
+    height: 180px;
+    width: 400px;
+    column-gap: 5px;
+   overflow: hidden;
+    gap: 1em;
+    justify-content: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.ImgContainer{
+    display: flex;
+    width: 180px;
+    border-radius: 40px;
+    /* background-color: beige; */
+    justify-content: center;
+  
+}
+.Img{
+    width: 100%;
+    scale: .9;
+    object-fit:cover;
+    border-radius: 50px
+}
+
+.Info{
+    display: flex;
+    width: 170px;
+    color: aliceblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.Name{
+    font-size: 1.3em;
+   
+    width: 100%;
+    color: rgba(111, 103, 255, 0.74);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+
+    margin: 0;
+   
+}
+.Continent{
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    
+}
+
+.hovered {
+    background-color: rgba(138, 237, 250, 0.247); /* Cambia esto al color que prefieras */
+  }

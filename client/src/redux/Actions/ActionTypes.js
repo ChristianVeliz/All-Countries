@@ -1,0 +1,9 @@
+export const ALL_COUNTRIES = "ALL_COUNTRIES";
+export const COUNTRIES_BY_NAME = "COUNTRIES_BY_NAME";
+export const COUNTRY_BY_ID = "COUNTRY_BY_ID";
+export const ALL_ACTIVITIES = "ALL_ACTIVITIES";
+export const SEARCH_TERM = "SEARCH_TERM";
+
+export const ALL_CONTINENTS = "ALL_CONTINENTS";
+
+export const SET_FILTERS = "SET_FILTERS";
